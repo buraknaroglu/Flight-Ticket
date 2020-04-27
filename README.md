@@ -9,7 +9,7 @@ Projemiz, uçuşlar oluşturan ve bu uçuşlara ait bilet alınabilmesini sağla
 - Rest Api'mizi dökümante edebilmek amaci ile swagger kullanilmistir.
 - ORM aracı olarak Spring Data Jpa kullanilmistir.
 - Db icin H2 Database kullanilmisitir.
-- Ekstra olarak projenin build edilmesi icin Docker kullanilmistir.
+- Ekstra olarak projenin build edilmesi icin Dockerfile eklenmiştir.
 - Junit
 - Lombok
 - Maven
