@@ -261,7 +261,8 @@ Projenin Docker araciliyla build islemi:
                                     }
                                   ]
                                   
-                * http://localhost:8080/flights/filter?airlineName=pe&name=es (POST) -> Sisteme olan flight'ların hem ismine göre hemde uçuşa ait airline'ın ismine göre arama yapar.
+                * http://localhost:8080/flights/filter?airlineName=pe&name=es (POST) -> Sisteme olan flight'ların hem
+                    ismine göre hemde uçuşa ait airline'ın ismine göre arama yapar.
                                      
                       * Response -> [
                                       {
@@ -287,8 +288,8 @@ Projenin Docker araciliyla build islemi:
     Ticket
     
                 * http://localhost:8080/tickets/available (GET) -> Sistemde var olan uçuşlara ait ticket'ları getirir. 
-                                                                   Kapasitesi dolan uçuşların ticket'larını getirmez. 
-                                                                   Ayrıca uçuş kapasitesi %10-%20-%30.. gibi doluluk oranına ulaştığında her %10 artış için bilet fiyatına %10 zam yapar.
+                    Kapasitesi dolan uçuşların ticket'larını getirmez. Ayrıca uçuş kapasitesi %10-%20-%30.. gibi
+                    doluluk oranına ulaştığında her %10 artış için bilet fiyatına %10 zam yapar.
                                     
                     * Response -> [
                                     {
@@ -337,8 +338,9 @@ Projenin Docker araciliyla build islemi:
                                     }
                                   ]
             
-                * http://localhost:8080/tickets (POST) -> Available servisinden gelen ticket'lardan birini sisteme kaydetmemizi sağlar ve böylece o ticket alınmış olur.
-                                                          Eğer tekrar bilet almak istersek güncel bilet ve fiyatlarını doğru alabilmemiz için available servisi call etmemiz gerekir.
+                * http://localhost:8080/tickets (POST) -> Available servisinden gelen ticket'lardan birini sisteme
+                    kaydetmemizi sağlar ve böylece o ticket alınmış olur. Eğer tekrar bilet almak istersek güncel
+                    bilet ve fiyatlarını doğru alabilmemiz için available servisi call etmemiz gerekir.
                 
                     * Request -> {
                                      "price": 10,
@@ -438,7 +440,8 @@ Projenin Docker araciliyla build islemi:
                                     }
                                   ]
                                   
-                * http://localhost:8080/tickets/filter?flightName=turk&number=2317 (POST) -> Hem ticket number'a göre hemde ticket'a ait flight ismine göre arama yapar.
+                * http://localhost:8080/tickets/filter?flightName=turk&number=2317 (POST) -> Hem ticket number'a göre
+                    hemde ticket'a ait flight ismine göre arama yapar.
                                      
                       * Response -> [
                                       {
@@ -466,7 +469,8 @@ Projenin Docker araciliyla build islemi:
                                       }
                                     ]
                                     
-                * http://localhost:8080/tickets/cancel/9 (DELETE) -> Id si verilen ticket'ın silinmesini sağlar. Böylelikle ticket'ımız iptal olmuş olur.
+                * http://localhost:8080/tickets/cancel/9 (DELETE) -> Id si verilen ticket'ın silinmesini sağlar.
+                    Böylelikle ticket'ımız iptal olmuş olur.
                                                      
                                       * Response -> Success.                  
                                                                                                          
