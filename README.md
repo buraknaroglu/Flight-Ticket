@@ -35,17 +35,17 @@ Projenin Docker araciliyla build islemi:
     
     Coverage Breakdown
     Package	                                Class, %	        Method, %	        Line, %
-    com.ticket.ticket	                100% (1/ 1)	        50% (1/ 2)	        33.3% (1/ 3)
-    com.ticket.ticket.config.logging	100% (1/ 1)	        50% (2/ 4)	        50% (9/ 18)
-    com.ticket.ticket.config.mvc	        100% (1/ 1)	        100% (4/ 4)	        100% (16/ 16)
-    com.ticket.ticket.config.swagger	100% (1/ 1)	        100% (3/ 3)	        100% (6/ 6)
-    com.ticket.ticket.controller	        100% (6/ 6)	        94.1% (16/ 17)	        94.1% (16/ 17)
-    com.ticket.ticket.entity	        100% (5/ 5)	        85.2% (23/ 27)	        85.2% (23/ 27)
-    com.ticket.ticket.filter	        100% (5/ 5)	        100% (17/ 17)	        100% (17/ 17)
-    com.ticket.ticket.service	        100% (5/ 5)	        100% (21/ 21)	        100% (43/ 43)
-    com.ticket.ticket.service.base	        100% (3/ 3)	        100% (8/ 8)	        100% (17/ 17)
-    com.ticket.ticket.specification	        100% (5/ 5)	        75% (15/ 20)    	88.4% (38/ 43)
-    com.ticket.ticket.specification.base	100% (2/ 2)	        100% (4/ 4)	        100% (6/ 6)
+    com.flight.ticket	                100% (1/ 1)	        50% (1/ 2)	        33.3% (1/ 3)
+    com.flight.ticket.config.logging	100% (1/ 1)	        50% (2/ 4)	        50% (9/ 18)
+    com.flight.ticket.config.mvc	        100% (1/ 1)	        100% (4/ 4)	        100% (16/ 16)
+    com.flight.ticket.config.swagger	100% (1/ 1)	        100% (3/ 3)	        100% (6/ 6)
+    com.flight.ticket.controller	        100% (6/ 6)	        94.1% (16/ 17)	        94.1% (16/ 17)
+    com.flight.ticket.entity	        100% (5/ 5)	        85.2% (23/ 27)	        85.2% (23/ 27)
+    com.flight.ticket.filter	        100% (5/ 5)	        100% (17/ 17)	        100% (17/ 17)
+    com.flight.ticket.service	        100% (5/ 5)	        100% (21/ 21)	        100% (43/ 43)
+    com.flight.ticket.service.base	        100% (3/ 3)	        100% (8/ 8)	        100% (17/ 17)
+    com.flight.ticket.specification	        100% (5/ 5)	        75% (15/ 20)    	88.4% (38/ 43)
+    com.flight.ticket.specification.base	100% (2/ 2)	        100% (4/ 4)	        100% (6/ 6)
   
 
 # Servisler
